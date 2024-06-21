@@ -12,9 +12,7 @@ body {
     height: 100%;
     
 }
-main {
-    min-height: calc(100vh - 280px);
-}
+
 header {
     background-color: rgb(209, 230, 231);
     height: 50px;
@@ -53,11 +51,7 @@ button {
     border: none;
 }
 
-footer {
-    background-color: rgb(209, 230, 231);
-    height: 50px;
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
+button:hover {
+    background-color: rgb(85, 211, 194);
 
 }
